@@ -1,0 +1,38 @@
+"""
+Implement a function called sort_students that takes a list of student objects as input and sorts the
+list based on their CGPA(cumulative Grade,point Average)in descending order Each student object
+has the following attributes:name(String),roll_number(String),and cgpa (float).Test the function.
+with different input losts of students.
+"""
+
+class student:
+    
+   def__init__(self,name,roll_numbar,(cgpa):
+     self.name = name
+     self.roll_number = roll_number
+     self.cgpa = cgpa
+
+
+  def sort_student(student_list):
+    #sort the list of students in descending order of CGPA
+    sorted_students = storted(student_list,key=Lambda student:student(cgpa,reverse=True)
+    
+
+#syntax-Lambda arg:exp
+return sorted_students
+
+
+#Example usage:
+students=[
+   student{"Hari","A123,7.8),
+   student{"Srikanth",A124",8.9),
+   student{"Saumya","A125",9.1)
+   student{"Mahidar","A126",9.9),
+   ]
+
+   sorted_student = sort_student(student)
+
+   #print the sorted list of students
+   for student in sorted_student:
+   print("Name:{},Roll Number:{},CGPA:{}".format{student,name,student.roll,numbers,student cgpa)).
+]
